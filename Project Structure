@@ -1,0 +1,54 @@
+/online-fraud-detection
+│
+├── /public
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+│
+├── /src
+│   ├── /assets
+│   │   ├── /images
+│   │   ├── /styles
+│   │   │   └── global.css
+│   │   └── /fonts
+│   │
+│   ├── /components
+│   │   ├── Navbar.js
+│   │   ├── Footer.js
+│   │   ├── Sidebar.js
+│   │   ├── Dashboard.js
+│   │   ├── Chart.js
+│   │   └── TransactionTable.js
+│   │
+│   ├── /pages
+│   │   ├── Home.js
+│   │   ├── FraudAnalysis.js
+│   │   ├── TransactionHistory.js
+│   │   ├── UserProfile.js
+│   │   └── Login.js
+│   │
+│   ├── /hooks
+│   │   └── useFetchData.js
+│   │
+│   ├── /utils
+│   │   ├── api.js
+│   │   ├── constants.js
+│   │   ├── dataProcessing.js
+│   │   └── chartConfig.js
+│   │
+│   ├── /context
+│   │   └── AuthContext.js
+│   │
+│   ├── /services
+│   │   ├── authService.js
+│   │   └── dataService.js
+│   │
+│   ├── App.js
+│   ├── index.js
+│   ├── routes.js
+│   ├── store.js
+│   └── App.css
+│
+├── .gitignore
+├── package.json
+└── README.md
